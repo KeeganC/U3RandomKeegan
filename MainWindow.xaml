@@ -1,0 +1,24 @@
+﻿<Window x:Class="U3RandomKeegan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U3RandomKeegan"
+        mc:Ignorable="d"
+        Title="LameCasino" Height="350" Width="525">
+    <StackPanel>
+        <Label
+            x:Name="lblOutput" 
+            Content="Guess the number between 1-6"
+            FontSize="30"/>
+        <TextBox
+            x:Name="txbInput"
+            FontSize="30"
+            Text="type here"/>
+        <Button
+            x:Name="btnGo"
+            Content="Go!"
+            FontSize="30"
+            Click="btnGo_Click"/>
+    </StackPanel>
+</Window>
